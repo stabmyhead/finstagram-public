@@ -1,0 +1,38 @@
+header {
+    background-color: #244751;
+    color: #E8FDFF;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+    /* will make element round/circular */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #E8FDFF;
+}
+
+a:active {
+    text-decoration: none
+    color: #244751;
+}
+
+a:visited {
+    border-radius: 20px;
+    color: #6C4A86;
+}
