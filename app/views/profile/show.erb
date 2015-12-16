@@ -1,0 +1,17 @@
+<div class="user-info">
+    <img src="<%= current_user.avatar_url %>" alt="<%= current_user.username %>">
+    <h2><%= current_user.username %></h2>
+</div>
+
+<h3>Recent Photos</h3> 
+     <div class="thumbnail">
+        <% @posts.each do |post| %>
+            <section class="row"><% end %>
+                <div class="col-md-4">
+                    <img class="thumbnail" src="<%= post.photo_url %>" >
+                </div>
+            </section>
+        <% end %>
+    </div>
+
+<h3>Recent Comments</h3>
